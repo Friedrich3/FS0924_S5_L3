@@ -1,0 +1,156 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #742305;
+}
+.container{
+    width: 92%;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    background-color: #fef7e2;
+    border-radius: 120px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 16px auto;
+    padding: 20px;
+    width: 85%;
+}
+.headerBtn{
+    display: flex;
+    flex-basis: 100%;
+    
+    justify-content:space-between ;
+}
+
+button{
+    color: #742305;
+    background-color: #ffdf7e;
+    border: 0;
+    border-radius: 40px;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 15px 10px;
+}
+
+header button{
+    flex-basis: 45%;
+    font-size: 1.2em;
+    padding: 20px;
+}
+#shop{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    margin:15px auto;
+    
+}
+#shop button{
+    flex-basis: 100%;
+    margin: 0;
+}
+#logo{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+    border-radius: 80px;
+}
+#logo span{
+    padding-left: 20px;
+}
+#logo img{
+    width: 15%;
+    
+}
+
+/*MAIN  CARD SECTION*/
+h1{
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 900;
+    line-height: 45px;
+    margin: 40px auto
+}
+
+img{
+    width: 100%;
+    border-radius: 80px 80px 0px 0px;
+}
+.card{
+    display: flex;
+    background-color: #fef7e2;
+    border-radius: 80px;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardDescription{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.cardText,.cardPrice,.cardBtn{
+    display: flex;
+    justify-content: center;
+    font-size: 1.0rem;
+}
+.cardText{
+flex-basis: 70%;
+flex-wrap: wrap;
+
+}
+.cardText h4,.cardText p{
+    flex-basis: 70%;
+    margin: 0;
+    text-align: center;
+    
+}
+.cardText h4{
+    font-size: 1.2em;
+}
+.cardPrice{
+flex-basis: 30%;
+font-weight: 600;
+}
+.cardBtn{
+flex-basis: 100%;
+}
+.cardBtn button{
+    flex-basis: 65%;
+    padding:10px 10px
+}
+
+/*MAIN NEWS SECTION*/
+.newsContainer h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.9em;
+}
+.news{
+    background-color:#fef7e2 ;
+    border-radius: 40px;
+    padding: 20px 30px;
+}
+.news h3{
+    font-weight: 900;
+}
+.news p{
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+.news img{
+    border-radius: 0px;
+}
+
