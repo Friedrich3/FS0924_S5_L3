@@ -94,7 +94,7 @@ header button {
   nav div:last-child {
     order: 1;
   }
-  #logo{
+  #logo {
     align-items: center;
   }
   header button {
@@ -105,12 +105,42 @@ header button {
     padding: 0;
     display: block;
     margin: 15% 10px;
-    padding: 20px 0;
+    padding: 30px 0;
   }
 }
 /* HEADER 768px*/
-@media screen and (min-width: 768px){
-    
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+  header {
+    width: 40%;
+  }
+  .headerWrapper {
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+  }
+  #shop {
+    margin: 5% 30px;
+  }
+  #shop,
+  nav div:last-child {
+    order: 0;
+  }
+  .headerBtn {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header button {
+    flex-basis: 100%;
+    border-radius: 80px;
+  }
+  .headerBtn button {
+    padding: 40px 0;
+    margin: 5% 30px;
+  }
 }
 /*MAIN  CARD SECTION*/
 
@@ -195,6 +225,27 @@ img {
     display: none;
   }
 }
+/* MAIN CARD 768px*/
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    margin: 0 30px;
+  }
+  .card {
+    flex-basis: 30%;
+    border-radius: 0px 0px 40px 40px;
+  }
+  #fourth {
+    display: none;
+  }
+  .cardText,
+  .cardPrice,
+  .cardBtn {
+    font-size: 0.8em;
+  }
+  img {
+    border-radius: 40px 40px 0px 0px;
+  }
+}
 
 /*MAIN NEWS SECTION*/
 .newsContainer h2 {
@@ -222,8 +273,13 @@ img {
 
 /* MAIN NEWS 576px*/
 @media screen and (min-width: 576px) {
-    .newsContainer h2{
-        text-align: left;
-    }
+  .newsContainer h2 {
+    text-align: left;
+  }
 }
-
+/* MAIN NEWS 768px*/
+@media screen and (min-width: 768px) {
+  .newsContainer {
+    margin: 0 30px;
+  }
+}
